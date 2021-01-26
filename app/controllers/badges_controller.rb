@@ -5,6 +5,11 @@ class BadgesController < ApplicationController
         render json: badges, except: [:created_at, :updated_at]
     end
 
+    def show
+        badge = Badge.find(params[:id])
+        render json: badge
+    end
+
     def create
         badge = Badge.create(badge_params)
         render json: badge

@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 
   get '/badges', to: 'badges#index'
   post '/badges', to: 'badges#create'
+  get '/badges/:id', to: 'badges#show'
   # patch '/badges/:id', to: 'badges#update'
 
   get '/user_games', to: 'user_games#index'

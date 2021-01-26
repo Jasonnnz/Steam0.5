@@ -1,5 +1,5 @@
 # USERS 
-jason = User.create(name: "Jason", age: 22, location: "NYC", image: "", email: "jason@gmail.com", username: "jasonnnz")
+jason = User.create(name: "Jason", age: 22, location: "NYC", image: "https://lh3.googleusercontent.com/proxy/xFgXKfO7t16A7Ju8eJxy-EGukpqfc1FGvW_ndYuTGER6gXShMQlPR8WMCVsvmFzIKKHWZSoJIcdb1t4Op_40HAl_b4TxOJVsivSMUywN45Idn4v86fPpEzuWDA6E", email: "jason@gmail.com", username: "jasonnnz")
 nana = User.create(name: "Nana", age: 20, location: "NYC", image: "", email: "nana@gmail.com", username: "nana")
 
 # GAMES 
@@ -28,8 +28,6 @@ gta5 = Game.create(name: "Grand Theft Auto V Online", genre: "Action", image: ".
 smash = Game.create(name: "Super Smash Bros. Ultimate", genre: "Fighting", image: "./images/smash.jpeg")
 destiny = Game.create(name: "Destiny 2", genre: "FPS", image: "./images/destiny.jpeg")
 ac = Game.create(name: "Animal Crossing: New Horizons", genre: "Survival", image: "./images/ac.jpeg")
-
-
 
 # BADGES
 badge1 = Badge.create(name: "Challenger", image: "", description: "Reached Challenger tier in League of Legends", game_id: 2)
