@@ -51,6 +51,8 @@ ActiveRecord::Schema.define(version: 2021_01_25_185505) do
 
   create_table "users", force: :cascade do |t|
     t.string "name"
+    t.string "email"
+    t.string "username"
     t.integer "age"
     t.string "location"
     t.boolean "status", default: true

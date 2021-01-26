@@ -17,7 +17,7 @@ class UsersController < ApplicationController
 
     def update
         user = User.find(params[:id])
-        user.update(name: params[:name], age: params[:age], location: params[:location], status: params[:status], image: params[:image])
+        user.update(name: params[:name], age: params[:age], location: params[:location], status: params[:status], image: params[:image], email: params[:email], username: params[:username])
         render json: user
     end
 
@@ -30,7 +30,7 @@ class UsersController < ApplicationController
     private 
 
     def user_params
-        params.permit(:name, :age, :location, :status, :image)
+        params.permit(:name, :age, :location, :status, :image, :email, :username)
     end
 
 end
