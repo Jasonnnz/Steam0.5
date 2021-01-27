@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   # patch '/badges/:id', to: 'badges#update'
 
   get '/user_games', to: 'user_games#index'
+  get '/user_games/:id', to: 'user_games#show'
   post '/user_games', to: 'user_games#create'
   patch '/user_games/:id', to: 'user_games#update'
   delete '/user_games', to: 'user_games#destroy'

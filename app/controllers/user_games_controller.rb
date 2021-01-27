@@ -5,6 +5,11 @@ class UserGamesController < ApplicationController
         render json: user_games, except: [:created_at, :updated_at]
     end
 
+    def show 
+        user_game = UserGame.find(params[:id])
+        render json: user_game
+    end
+
     def create
         user_game = UserGame.create(user_games_params)
         render json: user_game 
