@@ -29,10 +29,6 @@ smash = Game.create(name: "Super Smash Bros. Ultimate", genre: "Fighting", image
 destiny = Game.create(name: "Destiny 2", genre: "FPS", image: "./images2/destiny2.jpg")
 ac = Game.create(name: "Animal Crossing: New Horizons", genre: "Survival", image: "./images2/ac2.jpg")
 
-# BADGES
-badge1 = Badge.create(name: "Challenger", image: "", description: "Reached Challenger tier in League of Legends", game_id: 2)
-badge2 = Badge.create(name: "Deadshot", image: "", description: "Killed 20 people in a single game!", game_id: 1)
-badge3 = Badge.create(name: "No Life", image: "", description: "Played 10,000 hours!", game_id: 3)
 
 # USERGAME
 ug1 = UserGame.create(user_id: 1, game_id: 3, username: "jasonnnz", rating: rand(0..5), review: "Great game! Love playing it!")
@@ -42,5 +38,26 @@ ug3 = UserGame.create(user_id: 2, game_id: 2, username: "nana2", rating: rand(0.
 # USERBADGE
 ub1 = UserBadge.create(user_id: 1, badge_id: 1)
 ub1 = UserBadge.create(user_id: 2, badge_id: 2)
+
+
+# BADGES
+badge1 = Badge.create(name: "Challenger", image: "", description: "Reached Challenger tier in League of Legends", game_id: 2)
+badge2 = Badge.create(name: "Deadshot", image: "", description: "Killed 20 people in a single game!", game_id: 1)
+badge3 = Badge.create(name: "No Life", image: "", description: "Played 10,000 hours!", game_id: 3)
+## Apex badges
+ap1 = Badge.create(name: "Jumpmaster", image: "./badgeimage/apex/apexr/ap1.jpg", description: "Be the Jumpmaster 5 times", game_id: 5)
+ap2 = Badge.create(name: "Team Player", image: "./badgeimage/apex/apexr/ap2.jpg", description: "Respawn a teammate", game_id: 5)
+ap3 = Badge.create(name: "Fully Kitted", image: "./badgeimage/apex/apexr/ap3.jpg", description: "Equip a fully kitted weapon", game_id: 5)
+ap4 = Badge.create(name: "Kill Leader", image: "./badgeimage/apex/apexr/ap4.jpg", description: "Become the Kill Leader", game_id: 5)
+ap5 = Badge.create(name: "Apex Offense", image: "./badgeimage/apex/apexr/ap5.jpg", description: "Win a game as an offensive character", game_id: 5)
+ap6 = Badge.create(name: "The Player", image: "./badgeimage/apex/apexr/ap6.jpg", description: "Reach player level 50", game_id: 5)
+ap7 = Badge.create(name: "Apex Recon", image: "./badgeimage/apex/apexr/ap7.jpg", description: "Win a game as a recon character", game_id: 5)
+ap8 = Badge.create(name: "Decked Out", image: "./badgeimage/apex/apexr/ap8.jpg", description: "Equip a legendary Helmet and Body Armor at the same time", game_id: 5)
+ap9 = Badge.create(name: "Apex Support", image: "./badgeimage/apex/apexr/ap9.jpg", description: "Win a game as a support character", game_id: 5)
+ap10 = Badge.create(name: "Apex Defense", image: "./badgeimage/apex/apexr/ap10.jpg", description: "Win a game as a defensive character", game_id: 5)
+ap11 = Badge.create(name: "Well-Rounded", image: "./badgeimage/apex/apexr/ap11.jpg", description: "Deal 5,000 damage with 8 different Legends", game_id: 5)
+ap12 = Badge.create(name: "Apex Legend", image: "./badgeimage/apex/apexr/ap12.jpg", description: "Win a game with 8 different Legends", game_id: 5)
+
+
 
 puts "Data Seeded!"
