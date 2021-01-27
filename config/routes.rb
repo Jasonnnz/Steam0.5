@@ -14,7 +14,7 @@ Rails.application.routes.draw do
   get '/user_games/:id', to: 'user_games#show'
   post '/user_games', to: 'user_games#create'
   patch '/user_games/:id', to: 'user_games#update'
-  delete '/user_games', to: 'user_games#destroy'
+  delete '/user_games/:id', to: 'user_games#destroy'
   
   get '/games', to: 'games#index'
   get '/games/:id', to: 'games#show'
