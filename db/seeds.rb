@@ -42,9 +42,9 @@ ub1 = UserBadge.create(user_id: 1, badge_id: 1)
 ub1 = UserBadge.create(user_id: 2, badge_id: 2)
 
 # BADGES
-badge1 = Badge.create(name: "Challenger", image: "", description: "Reached Challenger tier in League of Legends", game_id: 2)
-badge2 = Badge.create(name: "Deadshot", image: "", description: "Killed 20 people in a single game!", game_id: 1)
-badge3 = Badge.create(name: "No Life", image: "", description: "Played 10,000 hours!", game_id: 3)
+badge1 = Badge.create(name: "Challenger", image: "./badgeimage/gen/genr/g12.jpg", description: "Reached Challenger tier in League of Legends", game_id: 2)
+badge2 = Badge.create(name: "Deadshot", image: "./badgeimage/gen/genr/g13.jpg", description: "Killed 20 people in a single game!", game_id: 1)
+badge3 = Badge.create(name: "No Life", image: "./badgeimage/gen/genr/g14.jpg", description: "Played 10,000 hours!", game_id: 3)
 ## Apex badges
 ap1 = Badge.create(name: "Jumpmaster", image: "./badgeimage/apex/apexr/ap1.jpg", description: "Be the Jumpmaster 5 times", game_id: 5)
 ap2 = Badge.create(name: "Team Player", image: "./badgeimage/apex/apexr/ap2.jpg", description: "Respawn a teammate", game_id: 5)
@@ -76,11 +76,11 @@ d3 = Badge.create(name: "The People's Hero", image: "./badgeimage/de/der/de3.jpg
 d4 = Badge.create(name: "Ikora's Protégé", image: "./badgeimage/de/der/de4.jpg", description: "Acquire each Warlock subclass", game_id: 24)
 d5 = Badge.create(name: "Heart of Darkness", image: "./badgeimage/de/der/de5.jpg", description: "Complete a Nightfall strike", game_id: 24)
 ## DOTA badges
-dota1 = Badge.create(name: "Vegetarian", image: "", description: "consume 300 trees using Tangos", game_id: 10)
-dota2 = Badge.create(name: "First One's Free", image: "", description: "complete first game of Dota 2", game_id: 10)
-dota3 = Badge.create(name: "Caught the Bug", image: "", description: "participate in 10 games", game_id: 10)
-dota4 = Badge.create(name: "Addicted", image: "", description: "participate in 100 games", game_id: 10)
-dota5 = Badge.create(name: "I can't quit anytime", image: "", description: "participate in 1000 games", game_id: 10)
+dota1 = Badge.create(name: "Vegetarian", image: "./badgeimage/gen/genr/g1.jpg", description: "consume 300 trees using Tangos", game_id: 10)
+dota2 = Badge.create(name: "First One's Free", image: "./badgeimage/gen/genr/g2.jpg", description: "complete first game of Dota 2", game_id: 10)
+dota3 = Badge.create(name: "Caught the Bug", image: "./badgeimage/gen/genr/g3.jpg", description: "participate in 10 games", game_id: 10)
+dota4 = Badge.create(name: "Addicted", image: "./badgeimage/gen/genr/g4.jpg", description: "participate in 100 games", game_id: 10)
+dota5 = Badge.create(name: "I can't quit anytime", image: "./badgeimage/gen/genr/g5.jpg", description: "participate in 1000 games", game_id: 10)
 ## FarCry badges
 fc1 = Badge.create(name: "The Spark", image: "./badgeimage/fa/far/fa1.jpg", description: "Complete the game intro by liberating Dutch’s island (Solo Campaign only)", game_id: 8)
 fc2 = Badge.create(name: "You are Wrath", image: "./badgeimage/fa/far/fa2.jpg", description: "Be deemed the Sin of Wrath (Solo Campaign only)", game_id: 8)
@@ -144,9 +144,9 @@ pu5 = Badge.create(name: "Seeking Death", image: "./badgeimage/pu/pur/pu5.jpg", 
 ## RocketLeague badges
 rl1 = Badge.create(name: "The Ultimate Warm-Up", image: "./badgeimage/de/der/de1.jpg", description: "All-Star Striker", game_id: 16)
 rl2 = Badge.create(name: "Redirect 10 Pack", image: "./badgeimage/de/der/de2.jpg", description: "All-Star Striker", game_id: 16)
-rl3 = Badge.create(name: "Simple Wall Shots", image: "", description: "Rookie Striker", game_id: 16)
-rl4 = Badge.create(name: "Upper 90 Striker Training", image: "", description: "All-Star Striker", game_id: 16)
-rl5 = Badge.create(name: "Power Shot Training", image: "", description: "Pro Striker", game_id: 16)
+rl3 = Badge.create(name: "Simple Wall Shots", image: "./badgeimage/gen/genr/g6.jpg", description: "Rookie Striker", game_id: 16)
+rl4 = Badge.create(name: "Upper 90 Striker Training", image: "./badgeimage/gen/genr/g7.jpg", description: "All-Star Striker", game_id: 16)
+rl5 = Badge.create(name: "Power Shot Training", image: "./badgeimage/gen/genr/g8.jpg", description: "Pro Striker", game_id: 16)
 ## Rust badges
 r1 = Badge.create(name: "Visit a Road", image: "./badgeimage/ru/rur/ru1.jpg", description: "Visit a Road", game_id: 21)
 r2 = Badge.create(name: "Collect 300 Metal Ore", image: "./badgeimage/ru/rur/ru2.jpg", description: "Collect 300 Metal Ore", game_id: 21)
