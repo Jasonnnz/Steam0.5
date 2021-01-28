@@ -1,6 +1,9 @@
 # USERS 
-jason = User.create(name: "Jason", age: 22, location: "NYC", image: "https://lh3.googleusercontent.com/proxy/xFgXKfO7t16A7Ju8eJxy-EGukpqfc1FGvW_ndYuTGER6gXShMQlPR8WMCVsvmFzIKKHWZSoJIcdb1t4Op_40HAl_b4TxOJVsivSMUywN45Idn4v86fPpEzuWDA6E", email: "jason@gmail.com", username: "jasonnnz")
+jason = User.create(name: "Jason", age: 22, location: "NYC", image: "", email: "jason@gmail.com", username: "jasonnnz")
 nana = User.create(name: "Nana", age: 20, location: "NYC", image: "", email: "nana@gmail.com", username: "nana")
+greg = User.create(name: "Greg", age: 27, location: "NYC", image: "", email: "greg@gmail.com", username:"greg")
+rianna = User.create(name: "Rianna", age: 25, location: "NJ", image: "", email: "rianna@gmail.com", username:"rianna")
+michelle = User.create(name: "Michelle", age: 28, location: "CO", image: "", email: "michelle@gmail.com", username:"michelle")
 
 # GAMES 
 paladin = Game.create(name: "Paladin" ,genre: "FPS", image: "./images2/paladins2.jpg")
@@ -29,7 +32,6 @@ smash = Game.create(name: "Super Smash Bros. Ultimate", genre: "Fighting", image
 destiny = Game.create(name: "Destiny 2", genre: "FPS", image: "./images2/destiny2.jpg")
 ac = Game.create(name: "Animal Crossing: New Horizons", genre: "Survival", image: "./images2/ac2.jpg")
 
-
 # USERGAME
 ug1 = UserGame.create(user_id: 1, game_id: 3, username: "jasonnnz", rating: rand(0..5), review: "Great game! Love playing it!")
 ug2 = UserGame.create(user_id: 2, game_id: 1, username: "nana", rating: rand(0..5), review: "I always play this game!")
@@ -38,7 +40,6 @@ ug3 = UserGame.create(user_id: 2, game_id: 2, username: "nana2", rating: rand(0.
 # USERBADGE
 ub1 = UserBadge.create(user_id: 1, badge_id: 1)
 ub1 = UserBadge.create(user_id: 2, badge_id: 2)
-
 
 # BADGES
 badge1 = Badge.create(name: "Challenger", image: "", description: "Reached Challenger tier in League of Legends", game_id: 2)
@@ -63,12 +64,35 @@ bf2 = Badge.create(name: "Grim Reaper", image: "./badgeimage/bf/bfr/b2.jpg", des
 bf3 = Badge.create(name: "Enemy Attrition", image: "./badgeimage/bf/bfr/b3.jpg", description: "In Multiplayer, get 10 kills in a round", game_id: 7)
 bf4 = Badge.create(name: "Heads Down", image: "./badgeimage/bf/bfr/b4.jpg", description: "In Multiplayer, fully suppress 5 enemies", game_id: 7)
 bf5 = Badge.create(name: "Not On My Watch", image: "./badgeimage/bf/bfr/b5.jpg", description: "In Multiplayer, perform 10 squad revives", game_id: 7)
+## CSGO badges
+csgo1 = Badge.create(name: "A World of Pane", image: "./badgeimage/c/cr/c1.jpg", description: "Shoot out 14 windows in a single round on Office", game_id: 18)
+csgo2 = Badge.create(name: "Shorttrain Map Veteran", image: "./badgeimage/c/cr/c2.jpg", description: "Win five matches on Shorttrain", game_id: 18)
+csgo3 = Badge.create(name: "Dust Map Veteran", image: "./badgeimage/c/cr/c3.jpg", description: "Win 100 rounds on Dust", game_id: 18)
+csgo4 = Badge.create(name: "Aztec Map Veteran", image: "./badgeimage/c/cr/c4.jpg", description: "Win 100 rounds on Aztec", game_id: 18)
 ## Destiny badges
 d1 = Badge.create(name: "Long and Winding Road", image: "./badgeimage/de/der/de1.jpg", description: "Reach level 20", game_id: 24)
 d2 = Badge.create(name: "Cayde's Pathfinder", image: "./badgeimage/de/der/de2.jpg", description: "Acquire each Hunter subclass", game_id: 24)
 d3 = Badge.create(name: "The People's Hero", image: "./badgeimage/de/der/de3.jpg", description: "Complete a Heroic public event.", game_id: 24)
 d4 = Badge.create(name: "Ikora's Protégé", image: "./badgeimage/de/der/de4.jpg", description: "Acquire each Warlock subclass", game_id: 24)
 d5 = Badge.create(name: "Heart of Darkness", image: "./badgeimage/de/der/de5.jpg", description: "Complete a Nightfall strike", game_id: 24)
+## DOTA badges
+dota1 = Badge.create(name: "Vegetarian", image: "", description: "consume 300 trees using Tangos", game_id: 10)
+dota2 = Badge.create(name: "First One's Free", image: "", description: "complete first game of Dota 2", game_id: 10)
+dota3 = Badge.create(name: "Caught the Bug", image: "", description: "participate in 10 games", game_id: 10)
+dota4 = Badge.create(name: "Addicted", image: "", description: "participate in 100 games", game_id: 10)
+dota5 = Badge.create(name: "I can't quit anytime", image: "", description: "participate in 1000 games", game_id: 10)
+## FarCry badges
+fc1 = Badge.create(name: "The Spark", image: "./badgeimage/fa/far/fa1.jpg", description: "Complete the game intro by liberating Dutch’s island (Solo Campaign only)", game_id: 8)
+fc2 = Badge.create(name: "You are Wrath", image: "./badgeimage/fa/far/fa2.jpg", description: "Be deemed the Sin of Wrath (Solo Campaign only)", game_id: 8)
+fc3 = Badge.create(name: "Special Delivery", image: "./badgeimage/fa/far/fa3.jpg", description: "Ensure a baby's safe passage into this world (Solo Campaign only)", game_id: 8)
+fc4 = Badge.create(name: "Only You", image: "./badgeimage/fa/far/fa4.jpg", description: "Sucessfully complete the First Trial (Solo Campaign only)", game_id: 8)
+fc5 = Badge.create(name: "Walk The Path", image: "./badgeimage/fa/far/fa5.jpg", description: "Discover the Bliss (Solo Campaign only)", game_id: 8)
+## Fortnite badges
+fn1 = Badge.create(name: "Gunsmith", image: "./badgeimage/fo/for/fo1.jpg", description: "Craft your first weapon", game_id: 15)
+fn2 = Badge.create(name: "Take Out Those Husks", image: "./badgeimage/fo/for/fo2.jpg", description: "Protect the survivors", game_id: 15)
+fn3 = Badge.create(name: "Some Sort of Rocket", image: "./badgeimage/fo/for/fo3.jpg", description: "Complete your first mission", game_id: 15)
+fn4 = Badge.create(name: "Shelter from the Storm", image: "./badgeimage/fo/for/fo4.jpg", description: "Complete 'Homebase Storm Shield Defense 1'", game_id: 15)
+fn5 = Badge.create(name: "Constructor Leadership", image: "./badgeimage/fo/for/fo5.jpg", description: "Unlock access to the Constructor Hero", game_id: 15)
 ## GTA badges
 gta1 = Badge.create(name: "Welcome to Los Santos", image: "./badgeimage/g/gr/g1.jpg", description: "Welcome!", game_id: 22)
 gta2 = Badge.create(name: "Off the Plane", image: "./badgeimage/g/gr/g2.jpg", description: "GTA Online: Complete the Introduction", game_id: 22)
@@ -108,7 +132,7 @@ p5 = Badge.create(name: "Teamed Up Bronze", image: "./badgeimage/pl/plr/pl5.jpg"
 ## Payday2 badges
 pd1 = Badge.create(name: "No One Cared Who I Was...", image: "./badgeimage/pd/pdr/pd1.jpg", description: "Until I put on the mask", game_id: 4)
 pd2 = Badge.create(name: "No Turning Back", image: "./badgeimage/pd/pdr/pd2.jpg", description: "Complete your first job", game_id: 4)
-pd4 = Badge.create(name: "I Want to Get Away", image: "./badgeimage/pd/pdr/pd3.jpg", description: "Jump. Unlocks the "Funnyman" mask", game_id: 4)
+pd4 = Badge.create(name: "I Want to Get Away", image: "./badgeimage/pd/pdr/pd3.jpg", description: "Jump. Unlocks the 'Funnyman' mask", game_id: 4)
 pd4 = Badge.create(name: "You Gotta Start Somewhere", image: "./badgeimage/pd/pdr/pd4.jpg", description: "Reach reputation level 5", game_id: 4)
 pd5 = Badge.create(name: "How Do You Like Me Now?", image: "./badgeimage/pd/pdr/pd5.jpg", description: "Equip an armor for the first time", game_id: 4)
 ## Pulsar badges
