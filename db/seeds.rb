@@ -1,9 +1,9 @@
 # USERS 
-jason = User.create(name: "Jason", age: 22, location: "NYC", image: "", email: "jason@gmail.com", username: "jasonnnz")
-nana = User.create(name: "Nana", age: 20, location: "NYC", image: "", email: "nana@gmail.com", username: "nana")
-greg = User.create(name: "Greg", age: 27, location: "NYC", image: "", email: "greg@gmail.com", username:"greg")
-rianna = User.create(name: "Rianna", age: 25, location: "NJ", image: "", email: "rianna@gmail.com", username:"rianna")
-michelle = User.create(name: "Michelle", age: 28, location: "CO", image: "", email: "michelle@gmail.com", username:"michelle")
+jason = User.create(name: "Jason", age: 22, location: "NYC", image: "./badgeimage/pro/pror/p1.jpg", email: "jason@gmail.com", username: "jasonnnz")
+nana = User.create(name: "Nana", age: 20, location: "NYC", image: "./badgeimage/pro/pror/p2.jpg", email: "nana@gmail.com", username: "nana")
+greg = User.create(name: "Greg", age: 27, location: "NYC", image: "./badgeimage/pro/pror/p3.jpg", email: "greg@gmail.com", username:"greg")
+rianna = User.create(name: "Rianna", age: 25, location: "NJ", image: "./badgeimage/pro/pror/p4.jpg", email: "rianna@gmail.com", username:"rianna")
+michelle = User.create(name: "Michelle", age: 28, location: "CO", image: "./badgeimage/pro/pror/p5.jpg", email: "michelle@gmail.com", username:"michelle")
 
 # GAMES 
 paladin = Game.create(name: "Paladin" ,genre: "FPS", image: "./images2/paladins2.jpg")
