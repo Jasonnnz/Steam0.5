@@ -57,7 +57,95 @@ ap9 = Badge.create(name: "Apex Support", image: "./badgeimage/apex/apexr/ap9.jpg
 ap10 = Badge.create(name: "Apex Defense", image: "./badgeimage/apex/apexr/ap10.jpg", description: "Win a game as a defensive character", game_id: 5)
 ap11 = Badge.create(name: "Well-Rounded", image: "./badgeimage/apex/apexr/ap11.jpg", description: "Deal 5,000 damage with 8 different Legends", game_id: 5)
 ap12 = Badge.create(name: "Apex Legend", image: "./badgeimage/apex/apexr/ap12.jpg", description: "Win a game with 8 different Legends", game_id: 5)
-
-
+## BattleField badges
+bf1 = Badge.create(name: "Last Man Standing", image: "./badgeimage/bf/bfr/b1.jpg", description: "In Multiplayer, have 3 squad members spawn on you", game_id: 7)
+bf2 = Badge.create(name: "Grim Reaper", image: "./badgeimage/bf/bfr/b2.jpg", description: "In Multiplayer, kill 30 enemies", game_id: 7)
+bf3 = Badge.create(name: "Enemy Attrition", image: "./badgeimage/bf/bfr/b3.jpg", description: "In Multiplayer, get 10 kills in a round", game_id: 7)
+bf4 = Badge.create(name: "Heads Down", image: "./badgeimage/bf/bfr/b4.jpg", description: "In Multiplayer, fully suppress 5 enemies", game_id: 7)
+bf5 = Badge.create(name: "Not On My Watch", image: "./badgeimage/bf/bfr/b5.jpg", description: "In Multiplayer, perform 10 squad revives", game_id: 7)
+## Destiny badges
+d1 = Badge.create(name: "Long and Winding Road", image: "./badgeimage/de/der/de1.jpg", description: "Reach level 20", game_id: 24)
+d2 = Badge.create(name: "Cayde's Pathfinder", image: "./badgeimage/de/der/de2.jpg", description: "Acquire each Hunter subclass", game_id: 24)
+d3 = Badge.create(name: "The People's Hero", image: "./badgeimage/de/der/de3.jpg", description: "Complete a Heroic public event.", game_id: 24)
+d4 = Badge.create(name: "Ikora's Protégé", image: "./badgeimage/de/der/de4.jpg", description: "Acquire each Warlock subclass", game_id: 24)
+d5 = Badge.create(name: "Heart of Darkness", image: "./badgeimage/de/der/de5.jpg", description: "Complete a Nightfall strike", game_id: 24)
+## GTA badges
+gta1 = Badge.create(name: "Welcome to Los Santos", image: "./badgeimage/g/gr/g1.jpg", description: "Welcome!", game_id: 22)
+gta2 = Badge.create(name: "Off the Plane", image: "./badgeimage/g/gr/g2.jpg", description: "GTA Online: Complete the Introduction", game_id: 22)
+gta3 = Badge.create(name: "American Dream", image: "./badgeimage/g/gr/g3.jpg", description: "GTA Online: Own an Apartment, Garage and an Insured Vehicle", game_id: 22)
+gta4 = Badge.create(name: "Be Prepared", image: "./badgeimage/g/gr/g4.jpg", description: "Be prepared", game_id: 22)
+gta5 = Badge.create(name: "Three-Bit Gangster", image: "./badgeimage/g/gr/g5.jpg", description: "GTA Online: Reach Rank 25", game_id: 22)
+## Insurgency badges
+i1 = Badge.create(name: "Ground Control I", image: "./badgeimage/in/inr/in1.jpg", description: "Capture one control point", game_id: 6)
+i2 = Badge.create(name: "Ground Control I (CoOp)", image: "./badgeimage/in/inr/in2.jpg", description: "Capture one control point while playing in cooperative mode", game_id: 6)
+i3 = Badge.create(name: "War Hero I", image: "./badgeimage/in/inr/in3.jpg", description: "Be the Most Valuable Player", game_id: 6)
+i4 = Badge.create(name: "First Blood", image: "./badgeimage/in/inr/in4.jpg", description: "Get the first kill in a round", game_id: 6)
+i5 = Badge.create(name: "First Blood (CoOp)", image: "./badgeimage/in/inr/in5.jpg", description: "Get the first kill in a round while playing in cooperative mode", game_id: 6)
+## Minecraft badges
+mc1 = Badge.create(name: "Taking Inventory", image: "./badgeimage/mi/mir/mi1.jpg", description: "Open your inventory", game_id: 20)
+mc2 = Badge.create(name: "Getting Wood", image: "./badgeimage/mi/mir/mi2.jpg", description: "Punch a tree until a block of wood pops out", game_id: 20)
+mc3 = Badge.create(name: "Benchmaking", image: "./badgeimage/mi/mir/mi3.jpg", description: "Craft a Crafting Table with four blocks of wooden planks", game_id: 20)
+mc4 = Badge.create(name: "Time to Mine!", image: "./badgeimage/mi/mir/mi4.jpg", description: "Use planks and sticks to make a pickaxe", game_id: 20)
+mc5 = Badge.create(name: "Hot Topic", image: "./badgeimage/mi/mir/mi5.jpg", description: "Construct a furnace out of eight cobblestone blocks", game_id: 20)
+## Overcooked2 badges
+oc1 = Badge.create(name: "Clockwork Kitchen", image: "./badgeimage/oc/ocr/oc1.jpg", description: "Complete a level by doing all the recipes in order", game_id: 14)
+oc2 = Badge.create(name: "And Suet Begins", image: "./badgeimage/oc/ocr/oc2.jpg", description: "Complete the tutorial level", game_id: 14)
+oc3 = Badge.create(name: "If You Can't Stand the Heat", image: "./badgeimage/oc/ocr/oc3.jpg", description: "Extinguish a burning kitchen", game_id: 14)
+oc4 = Badge.create(name: "Kitchen Porter", image: "./badgeimage/oc/ocr/oc4.jpg", description: "Get 3 stars on every level in World 1", game_id: 14)
+oc5 = Badge.create(name: "Toss Lightly", image: "./badgeimage/oc/ocr/oc5.jpg", description: "Throw 500 items", game_id: 14)
+## Overwatch badges
+ow1 = Badge.create(name: "The Path is Closed", image: "./badgeimage/ow/owr/ow1.jpg", description: "Destroy 3 of Symmetra's Teleporters in a Single Quick or Competitive Play game", game_id: 3)
+ow2 = Badge.create(name: "Undying", image: "./badgeimage/ow/owr/ow2.jpg", description: "Get a 20 Player Kill Streak in Quick or Competitive Play", game_id: 3)
+ow3 = Badge.create(name: "Decked Out", image: "./badgeimage/ow/owr/ow3.jpg", description: "Collect 50 Unlocks for a Single Hero", game_id: 3)
+ow4 = Badge.create(name: "Centenary", image: "./badgeimage/ow/owr/ow4.jpg", description: "Win 100 games in Quick or Competitive Play", game_id: 3)
+ow5 = Badge.create(name: "The Friend Zone", image: "./badgeimage/ow/owr/ow5.jpg", description: "Play a Quick or Competitive Play Game in A Group with A Friend", game_id: 3)
+## Paladins badges
+p1 = Badge.create(name: "Untouched", image: "./badgeimage/pl/plr/pl1.jpg", description: "Win a match where the enemy team scored no points", game_id: 1)
+p2 = Badge.create(name: "Counter-Air Defense", image: "./badgeimage/pl/plr/pl2.jpg", description: "Kill a player in the air who is over 100 units above the ground", game_id: 1)
+p1 = Badge.create(name: "Not Like This", image: "./badgeimage/pl/plr/pl3.jpg", description: "Kill an enemy player while you are at or below 50 Health", game_id: 1)
+p4 = Badge.create(name: "Well Trained", image: "./badgeimage/pl/plr/pl4.jpg", description: "Complete the Paladins Tutorial", game_id: 1)
+p5 = Badge.create(name: "Teamed Up Bronze", image: "./badgeimage/pl/plr/pl5.jpg", description: "Play a match while in a party", game_id: 1)
+## Payday2 badges
+pd1 = Badge.create(name: "No One Cared Who I Was...", image: "./badgeimage/pd/pdr/pd1.jpg", description: "Until I put on the mask", game_id: 4)
+pd2 = Badge.create(name: "No Turning Back", image: "./badgeimage/pd/pdr/pd2.jpg", description: "Complete your first job", game_id: 4)
+pd4 = Badge.create(name: "I Want to Get Away", image: "./badgeimage/pd/pdr/pd3.jpg", description: "Jump. Unlocks the "Funnyman" mask", game_id: 4)
+pd4 = Badge.create(name: "You Gotta Start Somewhere", image: "./badgeimage/pd/pdr/pd4.jpg", description: "Reach reputation level 5", game_id: 4)
+pd5 = Badge.create(name: "How Do You Like Me Now?", image: "./badgeimage/pd/pdr/pd5.jpg", description: "Equip an armor for the first time", game_id: 4)
+## Pulsar badges
+pu1 = Badge.create(name: "Galaxy In Chaos", image: "./badgeimage/pu/pur/pu1.jpg", description: "Reach Chaos level 6", game_id: 9)
+pu2 = Badge.create(name: "Explorer", image: "./badgeimage/pu/pur/pu2.jpg", description: "Make 150 jumps", game_id: 9)
+pu9 = Badge.create(name: "Big Spender", image: "./badgeimage/pu/pur/pu3.jpg", description: "Spend 100,000 credits in a single game", game_id: 9)
+pu4 = Badge.create(name: "Dice Champion", image: "./badgeimage/pu/pur/pu4.jpg", description: "Win a game of Liar’s Dice", game_id: 9)
+pu5 = Badge.create(name: "Seeking Death", image: "./badgeimage/pu/pur/pu5.jpg", description: "Defeat a Deathseeker", game_id: 9)
+## RocketLeague badges
+rl1 = Badge.create(name: "The Ultimate Warm-Up", image: "./badgeimage/de/der/de1.jpg", description: "All-Star Striker", game_id: 16)
+rl2 = Badge.create(name: "Redirect 10 Pack", image: "./badgeimage/de/der/de2.jpg", description: "All-Star Striker", game_id: 16)
+rl3 = Badge.create(name: "Simple Wall Shots", image: "", description: "Rookie Striker", game_id: 16)
+rl4 = Badge.create(name: "Upper 90 Striker Training", image: "", description: "All-Star Striker", game_id: 16)
+rl5 = Badge.create(name: "Power Shot Training", image: "", description: "Pro Striker", game_id: 16)
+## Rust badges
+r1 = Badge.create(name: "Visit a Road", image: "./badgeimage/ru/rur/ru1.jpg", description: "Visit a Road", game_id: 21)
+r2 = Badge.create(name: "Collect 300 Metal Ore", image: "./badgeimage/ru/rur/ru2.jpg", description: "Collect 300 Metal Ore", game_id: 21)
+r3 = Badge.create(name: "Destroy 10 Barrels", image: "./badgeimage/ru/rur/ru3.jpg", description: "Destroy 10 Barrels", game_id: 21)
+r4 = Badge.create(name: "Construct a Base", image: "./badgeimage/ru/rur/ru4.jpg", description: "Construct a Base", game_id: 21)
+r5 = Badge.create(name: "Collect 65 Scrap", image: "./badgeimage/ru/rur/ru5.jpg", description: "Collect 65 Scrap", game_id: 21)
+## Warframe badges
+wf1 = Badge.create(name: "Agent", image: "./badgeimage/wa/war/wa1.jpg", description: "Solve a Cipher", game_id: 11)
+wf2 = Badge.create(name: "Payday", image: "./badgeimage/wa/war/wa2.jpg", description: "Earn 1,000 Credits", game_id: 11)
+wf3 = Badge.create(name: "Secrets of the Orokin", image: "./badgeimage/wa/war/wa3.jpg", description: "Find 1 Mod", game_id: 11)
+wf4 = Badge.create(name: "Practice Makes Perfect", image: "./badgeimage/wa/war/wa4.jpg", description: "Reach Rank 2 with any weapon", game_id: 11)
+wf5 = Badge.create(name: "No Longer a Rookie", image: "./badgeimage/wa/war/wa5.jpg", description: "Reach Rank 2 with any Warframe", game_id: 11)
+## Warzone badges 
+wz1 = Badge.create(name: "Tier 1", image: "./badgeimage/wz/wzr/wz1.jpg", description: "Unlock all trophies", game_id: 13)
+wz2 = Badge.create(name: "Press [BOOM] to Defuse", image: "./badgeimage/wz/wzr/wz2.jpg", description: "Blow up 3 tripwires with explosives", game_id: 13)
+wz3 = Badge.create(name: "Ashes to Ashes", image: "./badgeimage/wz/wzr/wz3.jpg", description: "Burn 4 enemies with a single molotov", game_id: 13)
+wz4 = Badge.create(name: "Hang Time", image: "./badgeimage/wz/wzr/wz4.jpg", description: "Kill 3 enemies while you are on a ladder", game_id: 13)
+wz5 = Badge.create(name: "Long Way Down", image: "./badgeimage/wz/wzr/wz5.jpg", description: "Crash a helicopter by shooting the pilot", game_id: 13)
+## WoW badges
+wow1 = Badge.create(name: "Popel's Medal", image: "./badgeimage/wo/wor/wo1.jpg", description: "Popel's Medal", game_id: 12)
+wow2 = Badge.create(name: "Survivor", image: "./badgeimage/wo/wor/wo2.jpg", description: "Survivor", game_id: 12)
+wow3 = Badge.create(name: "Carius' Medal", image: "./badgeimage/wo/wor/wo3.jpg", description: "Carius' Medal", game_id: 12)
+wow4 = Badge.create(name: "Defender", image: "./badgeimage/wo/wor/wo4.jpg", description: "Defender", game_id: 12)
+wow5 = Badge.create(name: "Master", image: "./badgeimage/wo/wor/wo6.jpg", description: "Master", game_id: 12)
 
 puts "Data Seeded!"

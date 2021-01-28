@@ -1,9 +1,5 @@
 Rails.application.routes.draw do
-  # resources :user_badges
-  # resources :badges
-  # resources :user_games
-  # resources :games
-  # resources :users
+  resources :friendships, only: [:new, :create, :destroy]
 
   get '/badges', to: 'badges#index'
   post '/badges', to: 'badges#create'
