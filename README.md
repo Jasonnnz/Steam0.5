@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Code for the Backend of Steam0.5. Here we create the MVC for our application via Rails. To spin the server, run `rails db:create` if you're using PostgreSQL. Then run `rails db:migrate` followed with `rails db:seed` to see all of the data. Afterwards to host the server, run `rails s`. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+repo for front end: 
