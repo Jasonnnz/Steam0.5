@@ -78,7 +78,7 @@ d5 = Badge.create(name: "Heart of Darkness", image: "./badgeimage/de/der/de5.jpg
 ## DOTA badges
 dota1 = Badge.create(name: "Vegetarian", image: "./badgeimage/gen/genr/g1.jpg", description: "consume 300 trees using Tangos", game_id: 10)
 dota2 = Badge.create(name: "First One's Free", image: "./badgeimage/gen/genr/g2.jpg", description: "complete first game of Dota 2", game_id: 10)
-dota3 = Badge.create(name: "Caught the Bug", image: "./badgeimage/gen/genr/g3.jpg", description: "participate in 10 games", game_id: 10)
+dota3 = Badge.create(name: "Caught the Bug", image: "./badgeimage/gen/genr/g16.jpg", description: "participate in 10 games", game_id: 10)
 dota4 = Badge.create(name: "Addicted", image: "./badgeimage/gen/genr/g4.jpg", description: "participate in 100 games", game_id: 10)
 dota5 = Badge.create(name: "I can't quit anytime", image: "./badgeimage/gen/genr/g5.jpg", description: "participate in 1000 games", game_id: 10)
 ## FarCry badges
